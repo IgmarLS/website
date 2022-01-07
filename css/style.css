@@ -1,0 +1,174 @@
+@import url("https://fonts.googleapis.com/css2?family=The+Nautigal:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto Condensed";
+}
+
+header {
+  background-color: #27242a;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header nav ul {
+  display: flex;
+  align-items: center;
+}
+header nav ul li {
+  list-style: none;
+  padding: 0 20px;
+}
+header nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+header nav ul li span {
+  font-family: "The Nautigal";
+  font-size: 70px;
+}
+
+.main-img img {
+  height: 600px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.benefits .titleBenefits {
+  font-size: 25px;
+  text-align: center;
+}
+.benefits div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.benefits div article {
+  width: 300px;
+  text-align: center;
+  padding: 25px 0;
+}
+.benefits div article h2 {
+  font-family: "The Nautigal";
+  font-size: 50px;
+  color: #6c757d;
+}
+.benefits div article i {
+  font-size: 80px;
+  color: #e07a5f;
+  padding-bottom: 20px;
+}
+
+.creator {
+  display: flex;
+  margin: 40px 0;
+}
+.creator img {
+  width: 50%;
+  object-fit: cover;
+}
+.creator div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 50px 100px;
+}
+.creator div span {
+  font-family: "The Nautigal";
+  font-size: 50px;
+}
+.creator div h2 {
+  margin: 15px 0;
+}
+.creator div p {
+  margin-bottom: 20px;
+}
+.creator div .button {
+  background-color: #27242a;
+  color: white;
+  border-radius: 5px;
+  width: 100px;
+  text-transform: uppercase;
+  padding: 10px;
+}
+.creator div form input {
+  padding: 5px;
+  border-radius: 5px;
+}
+.creator div form button {
+  background-color: #27242a;
+  color: white;
+  border-radius: 5px;
+  width: 100px;
+  text-transform: uppercase;
+  padding: 5px;
+}
+
+.popular {
+  display: flex;
+  flex-direction: column;
+}
+.popular h3 {
+  font-family: "The Nautigal";
+  font-size: 70px;
+  padding: 15px;
+  align-self: center;
+}
+.popular div {
+  display: flex;
+  justify-content: space-evenly;
+}
+.popular div article {
+  width: 250px;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 30px 0;
+}
+.popular div article span {
+  font-size: 12px;
+}
+.popular div article h4 {
+  margin: 20px 0;
+}
+.popular div img {
+  width: 100%;
+}
+.popular button {
+  /* tratar de usar extend */
+  background-color: #27242a;
+  color: white;
+  border-radius: 5px;
+  width: 100px;
+  text-transform: uppercase;
+  padding: 10px;
+  align-self: center;
+}
+
+footer {
+  background-color: #27242a;
+  color: white;
+  padding: 20px;
+}
+footer ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer i {
+  margin: 20px;
+  font-size: 20px;
+}
+footer i:hover {
+  color: #e07a5f;
+}
+footer p {
+  text-align: center;
+}
+
+/*# sourceMappingURL=style.css.map */
